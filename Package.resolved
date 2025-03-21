@@ -1,0 +1,60 @@
+{
+  "originHash" : "b59f4a3df499a193bf8bbbea5ccf4c6045d0ae4df6d4ea5c2628af7634b017e5",
+  "pins" : [
+    {
+      "identity" : "hemiprocnemystaceacodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/HemiprocneMystaceaCodable",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5b2afb3c2117767692eda4f0a57170b32d781597"
+      }
+    },
+    {
+      "identity" : "hemiprocnemystaceaerror",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/HemiprocneMystaceaError",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ee4b58a351d57e216cf636c1f62f2a915f534796"
+      }
+    },
+    {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-docc-plugin",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8357c7750dbed168f245f46def146b454d371b1a"
+      }
+    },
+    {
+      "identity" : "swift-docc-symbolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-docc-symbolkit",
+      "state" : {
+        "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "thrappture",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/Thrappture",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0667a76f1176b301922d84be7dc0803d0e562555"
+      }
+    },
+    {
+      "identity" : "tuplay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/Tuplay",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9a270c883172b91f14765d1adfa6a36c949993a1"
+      }
+    }
+  ],
+  "version" : 3
+}
