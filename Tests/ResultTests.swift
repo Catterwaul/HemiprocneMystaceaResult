@@ -4,6 +4,25 @@ import Testing
 import Foundation
 
 struct ResultTests {
+  @Test func `?? operator`()  {
+    struct Failure: Error { }
+    let result = Result<String, _>.failure(Failure())
+
+    `non-throwing`: do {
+      let success = "🥇"
+      #expect(result ?? success == success)
+    }
+
+    `throwing`: do {
+      var error: String {
+        get throws(Failure) { throw .init() }
+      }
+      #expect(throws: Failure.self) {
+        try result ?? { try error }
+      }
+    }
+  }
+
   @Test func `init`() async {
     func succeed() async throws(SomeError) { }
     var result = await Result<_, SomeError>(catching: succeed)
